@@ -1,0 +1,7 @@
+<p>hello</p>
+<!-- *ngFor => seria um map para pegar os dados da onde ele foi importanto, no caso esta no app.component -->
+<ap-photo
+  *ngFor="let photo of photos"
+  [url]="photo.url"
+  [description]="photo.description"
+></ap-photo>
